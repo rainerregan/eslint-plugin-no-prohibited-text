@@ -2,11 +2,18 @@
   "name": "eslint-plugin-no-toxic",
   "version": "1.0.0",
   "description": "ESLint Plugin to prohibit toxic words in your codebase",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node tests/no-prohibited-text.js"
   },
-  "keywords": [],
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
