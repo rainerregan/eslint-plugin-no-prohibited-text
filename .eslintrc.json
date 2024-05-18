@@ -3,12 +3,6 @@
     "no-prohibited-text"
   ],
   "rules": {
-    "no-prohibited-text/no-prohibited-text": [
-      "error",
-      [
-        "prohibitedVariable",
-        "bannedName"
-      ]
-    ]
+    "no-prohibited-text/no-prohibited-text": "error"
   }
 }
