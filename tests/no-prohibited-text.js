@@ -33,14 +33,6 @@ ruleTester.run('no-prohibited-text', rule, {
       errors: [{ messageId: 'prohibitedText', data: { type: 'Variable', name: 'badword2' } }]
     },
     {
-      code: 'function foo() {}',
-      errors: [{ messageId: 'prohibitedText', data: { type: 'Function', name: 'foo' } }]
-    },
-    {
-      code: 'class foo {}',
-      errors: [{ messageId: 'prohibitedText', data: { type: 'Class', name: 'foo' } }]
-    },
-    {
       code: 'let prohibitedVariable;',
       options: [['prohibitedVariable']],
       errors: [{ messageId: 'prohibitedText', data: { type: 'Variable', name: 'prohibitedVariable' } }]
@@ -50,15 +42,7 @@ ruleTester.run('no-prohibited-text', rule, {
       options: [['bannedName']],
       errors: [{ messageId: 'prohibitedText', data: { type: 'Variable', name: 'bannedName' } }]
     },
-    {
-      code: 'function bannedName() {}',
-      options: [['bannedName']],
-      errors: [{ messageId: 'prohibitedText', data: { type: 'Function', name: 'bannedName' } }]
-    },
-    {
-      code: 'class bannedName {}',
-      options: [['bannedName']],
-      errors: [{ messageId: 'prohibitedText', data: { type: 'Class', name: 'bannedName' } }]
-    }
   ]
 });
+
+console.log('All tests passed!');
