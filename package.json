@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-no-prohibited-text",
+  "name": "eslint-plugin-no-toxic",
   "version": "1.0.0",
-  "description": "",
+  "description": "ESLint Plugin to prohibit toxic words in your codebase",
   "main": "index.js",
   "scripts": {
     "test": "node tests/no-prohibited-text.js"
