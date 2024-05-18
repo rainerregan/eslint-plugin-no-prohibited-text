@@ -1,0 +1,15 @@
+{
+  "name": "eslint-plugin-no-prohibited-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/no-prohibited-text.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.3.0"
+  }
+}
