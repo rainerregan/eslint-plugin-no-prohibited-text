@@ -12,9 +12,9 @@ module.exports = [
       ecmaVersion: "latest",
     },
     // Using the eslint-plugin-example plugin defined locally
-    plugins: { "no-prohibited-text": prohibitedTextPlugin },
+    plugins: { "no-toxic-js": prohibitedTextPlugin },
     rules: {
-      "no-prohibited-text/no-prohibited-text": "error",
+      "no-toxic-js/no-prohibited-text": "error",
     },
   }
 ]
